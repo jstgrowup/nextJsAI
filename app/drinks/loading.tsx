@@ -1,7 +1,4 @@
-import React from "react";
-
-const Loading = () => {
-  return <span className="loading">Loading</span>;
+const loading = () => {
+  return <span className="loading"></span>;
 };
-
-export default Loading;
+export default loading;

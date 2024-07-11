@@ -1,9 +1,6 @@
 "use client";
-import React from "react";
-
-const Error = (error: any) => {
-  console.log("error:", error);
+const error = (error: any) => {
+  // return <div>there was an error...</div>;
   return <div>{error.error.message}</div>;
 };
-
-export default Error;
+export default error;
